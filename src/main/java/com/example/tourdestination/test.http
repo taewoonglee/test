@@ -1,0 +1,291 @@
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "평화 광장",
+  "tourDestinationLocation": "서울 마포구",
+  "tourDestinationType" : "자연&관광",
+  "tourDestinationContent": "서울시 마포구 성산동에 위치한 광장",
+  "tourDestinationContentDetail": "서울시 마포구 성산동에 위치한 광장으로 서울 월드컵 경기장 앞에 펼쳐져 있다. 디양한 축제나 걷기 대회가 열리는 곳으로 서울 시민들이 자주 찾는 곳이다. 가까운 곳에 있는 평화의 공원 난지연못 주변으로 평화의 공원 별자리 광장과 평화 잔디광장 그리고 유니세프 광장까지 대규모 잔디 광장이 펼쳐져 있다. 6호선 월드컵 경기장역에 1번 출구에서 약 10분 내로 접근 가능하며 주차장도 넓어서 이용이 편리하다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=26e1f1a4-dc31-4ba8-82b5-9c9685182ccf",
+  "tourDestinationPay" : 1000
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "올림픽공원피크닉장",
+  "tourDestinationLocation": "서울 송파구",
+  "tourDestinationType" : "자연&관광",
+  "tourDestinationContent": "서울 송파구 올림픽공원 몽촌 토성을 올라가는 길에 조성된 넓은 잔디광장",
+  "tourDestinationContentDetail": "서울 송파구 올림픽공원 몽촌 토성을 올라가는 길에 조성된 넓은 잔디광장이다. 올림픽공원은 어디든 산책하고 쉴 수 있는 곳이지만 이곳은 돗자리를 깔고 아이들과 마음껏 뛰어놀 수 있는 공간이다. 가족 단위 나들이객과 야외에서 데이트하고 싶어 하는 젊은 남녀들이 많이 찾는다. 멋진 자연의 풍광을 담을 수 있는 사진 촬영 인기 지역이기도 하다. ",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=3124f7f6-daa6-4e59-9357-3e5a2f688265",
+  "tourDestinationPay" : 0
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "카멜커피",
+  "tourDestinationLocation": "서울 강남구",
+  "tourDestinationType" : "음식",
+  "tourDestinationContent": "레트로 감성을 자극하는 도산공원의 인기 카페",
+  "tourDestinationContentDetail": "카멜(Camel)커피 6호점(도산 2호점)으로도 알려진 이곳은 레트로 감성을 자극하는 분위기로 마니아층이 두꺼운 도산공원의 인기 카페이다. 플랫 화이트에 크림으로 조합된 카멜 커피와 초콜릿 향이 가득한 도산 커피를 맛볼 수 있다. ",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=1302c404-2010-4683-ba62-c3f521de39b0",
+  "tourDestinationPay" : 10000
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "종로꽃시장",
+  "tourDestinationLocation": "서울 종로구",
+  "tourDestinationType" : "쇼핑",
+  "tourDestinationContent": "도심 속 작은 정원",
+  "tourDestinationContentDetail": "주로 다육식물이나 화분에 담긴, 뿌리가 있는 식물들을 취급하며, 계절과 시기에 맞춰 핀 꽃들도 판매한다. 일반 꽃 시장과 달리 묘목, 분재 등을 구매할 수 있기 때문에 작물을 직접 키우는 애호가들이 이용하기 편리하다. 가동, 나동 식으로 여러 개의 상가로 구성되어 있다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=6b03d0e1-aad5-4e43-87d5-be9b325ae0c1",
+  "tourDestinationPay" : 0
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "악어떡볶이",
+  "tourDestinationLocation": "서울 성동구",
+  "tourDestinationType" : "음식",
+  "tourDestinationContent": "매일 아침 방앗간에서 직접 뽑은 국내산 쌀떡으로 조리하는 떡볶이 맛집",
+  "tourDestinationContentDetail": "서울 성동구 왕십리 한양대 인근에 있는 악어떡볶이는 매콤하면서도 부드럽고 쫀득한 떡볶이와 바삭한 튀김, 순대 등을 판매하는 분식점이다. 매일 아침 방앗간에서 직접 뽑은 쌀 떡볶이 맛집으로 이름나 있었지만, tvN <유 퀴즈 온 더 블록>, KBS 등의 방송 프로그램에 소개되면서 더욱 인기가 많아졌다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=d0af8b20-d7d3-447b-9fa8-154ae34f2950",
+  "tourDestinationPay" : 1000
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "강서농산물도매시장",
+  "tourDestinationLocation": "서울 강서구",
+  "tourDestinationType" : "쇼핑",
+  "tourDestinationContent": "서울 강서구 외발산동에 위치한 강서농산물도매시장",
+  "tourDestinationContentDetail": "서울 성동구 왕십리 한양대 인근에 있는 악어떡볶이는 매콤하면서도 부드럽고 쫀득한 떡볶이와 바삭한 튀김, 순대 등을 판매하는 분식점이다. 매일 아침 방앗간에서 직접 뽑은 쌀 떡볶이 맛집으로 이름나 있었지만, tvN <유 퀴즈 온 더 블록>, KBS 등의 방송 프로그램에 소개되면서 더욱 인기가 많아졌다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=772f7f15-330b-4260-9865-65a5f15edc5c",
+  "tourDestinationPay" : 0
+}
+
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "더 라이프 스타일 서울",
+  "tourDestinationLocation": "서울",
+  "tourDestinationType" : "축제&행사",
+  "tourDestinationContent": "서울의 산업·리빙·관광·문화를 대표하는 행사들의 엄브렐러 브랜드",
+  "tourDestinationContentDetail": "The Lifestyle Seoul은 서울의 산업·관광·문화·리빙을 대표하는 8개 행사의 엄브렐러 브랜드로서, 8월31일부터 10월 9일까지 '서울이 입고·먹고·생활하는' 라이프스타일 트렌드를 만나볼 수 있다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://korean.visitkorea.or.kr/kfes/upload/contents/db/400_684c855f-d93a-41bb-ab55-7f336f6eb5d0_2.png",
+  "tourDestinationPay" : 100000
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "세계유산축정",
+  "tourDestinationLocation": "서울 종로구",
+  "tourDestinationType" : "축제&행사",
+  "tourDestinationContent": "세계유산의 가치를 전합니다",
+  "tourDestinationContentDetail": "세계유산축전은 공모를 통해 선정된 국내 유네스코 등재 세계유산을 주제로 진행되는 축제이다. 뛰어난 보편적 가치를 지닌 인류의 자산인 세계유산의 가치를 전 국민과 더불어 향유하고자 기획되었으며, 세계유산을 주제로 전통공연, 재현행사, 체험, 전시 등 고품질 세계유산 복합 향유 프로그램으로 세계유산의 가치를 전달한다. 2023년 제4회 세계유산축전은 백제역사유적지구, 전남 순천(선암사·순천갯벌), 수원화성에서 펼쳐질 예정이다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://korean.visitkorea.or.kr/kfes/upload/contents/db/400_aea9455a-193d-4d16-a4f7-60822cd47d0f_3.jpg",
+  "tourDestinationPay" : 100000
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "경복궁 별빛야행",
+  "tourDestinationLocation": "서울 종로구",
+  "tourDestinationType" : "축제&행사",
+  "tourDestinationContent": "가을 깊은 밤, 경복궁 별빛야행에 여러분을 초대 합니다",
+  "tourDestinationContentDetail": "가을 깊은 밤, 경복궁에서 은은한 별빛 아래 경복궁 소주방에서 국악공연을 즐기며 임금님의 수라상을 맛보고, 전문해설사와 함께 경복궁 별빛 산책을 떠날 수 있다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://korean.visitkorea.or.kr/kfes/upload/contents/db/400_77a088e0-72c5-463f-b9c8-898275a41af5_3.jpg",
+  "tourDestinationPay" : 0
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "배봉산",
+  "tourDestinationLocation": "서울 동대문구",
+  "tourDestinationType" : "자연&관광",
+  "tourDestinationContent": "가을 깊은 밤, 경복궁 별빛야행에 여러분을 초대 합니다",
+  "tourDestinationContentDetail": "해발 108m의 배봉산에 조성된 배봉산근린공원은 산지형 공원으로 비탈졌으나 무장애 둘레길이 있어 수월하게 오를 수 있는 공원이다. 배봉산근린공원은 걷기에 최적화된 길이다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=21267e13-873f-4781-b7a2-c834a360ba6c",
+  "tourDestinationPay" : 0
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "푸른수목원&항동철길",
+  "tourDestinationLocation": "서울 구로구",
+  "tourDestinationType" : "자연&관광",
+  "tourDestinationContent": "시민과 함께하는 생태 학습장",
+  "tourDestinationContentDetail": "서울시 최초로 조성된 시립수목원으로 2,100 여종의 다양한 식물을 감상할 수 있으며 수목원 입구와 연결되는 항동철길과 연계 관광이 가능하다. 푸른수목원은 인적 없는 공터에서 친환경 청정수목원으로 개장한 서울시 최초의 시립 수목원이며 2018년 서울시 1호 공립수목원으로 지정되었다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=f553f4a8-1d2e-4cb2-8091-afe7a332a314",
+  "tourDestinationPay" : 0
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "북악산",
+  "tourDestinationLocation": "서울 종로구",
+  "tourDestinationType" : "자연&관광",
+  "tourDestinationContent": "서울분지를 둘러싸는 내4산(內四山)중 가장 높은 산",
+  "tourDestinationContentDetail": "서울분지를 둘러싸는 내4산(內四山)은 북악산·남산·낙산·인왕산이다. 그 중 가장 높은 것은 북쪽의 북악산(北岳山)으로 북한산의 남쪽 지맥의 한 봉우리이다. 경복궁 북쪽에 솟아 있고 일명 백악산(白岳山)이라고도 한다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=24886fd5-fcab-43b4-8ca1-45a6dcfc41e2",
+  "tourDestinationPay" : 0
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "갈산근린공원",
+  "tourDestinationLocation": "서울 양천구",
+  "tourDestinationType" : "자연&관광",
+  "tourDestinationContent": "양천구 산책하기 좋은 공원",
+  "tourDestinationContentDetail": "대체로 산세가 둥근 양천구의 다른 산들과는 달리 갈산은 동쪽 부분이 벼랑처럼 깎인 절경을 뽐낸다. 안양천의 오랜 침식작용으로 산 정상이 칼날처럼 변한 것으로 ‘칼산’이라는 이름으로 불리다가 ‘갈산’으로 순화되었다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=7f809bc5-fbcb-4344-a8b7-11976cc9d159",
+  "tourDestinationPay" : 0
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "동대문역사문화공원",
+  "tourDestinationLocation": "서울 중구",
+  "tourDestinationType" : "명소",
+  "tourDestinationContent": "서울의 옛 정취를 느낄 수 있는 문화공원",
+  "tourDestinationContentDetail": "공원 내에는 서울성곽과 이간수문(265m 8,030㎡)외에도 동대문역사관(1,313㎡), 동대문유구전시장(4,460㎡), 동대문운동장기념관(339㎡), 이벤트홀(2,058㎡), 디자인갤러리(400㎡) 등이 들어섰다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=783a2a83-0f81-4ee0-ba14-b09b70e20603",
+  "tourDestinationPay" : 0
+}
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "남산서울타워",
+  "tourDestinationLocation": "서울 용산구",
+  "tourDestinationType" : "명소",
+  "tourDestinationContent": "대를 이어온 데이트의 추억",
+  "tourDestinationContentDetail": "''남산서울타워''는 효율적인 방송전파 송수신과 한국의 전통미를 살린 관광 전망시설의 기능을 겸비한 국내 최초의 종합전파탑으로 방송문화와 관광산업의 미래를 위해 건립되었다. 세계 유명한 종합 탑들이 그 나라 또는 그 도시의 상징적인 존재가 된 것 처럼 ''남산서울타워'' 역시 지난 40여 년간 대한민국의 대표적인 관광지이자 서울의 상징물 역할을 해왔다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=206ac91c-27f9-4ec7-9cb8-3539bc206c17",
+  "tourDestinationPay" : 0
+}
+
+###getUser
+GET http://localhost:9010/api/v1/tourdestination
+Accept: application/json
+
+
+###insertUser
+POST http://localhost:9010/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "강",
+  "tourDestinationLocation": "서울시 무슨구 무슨동 몇번 길",
+  "tourDestinationType" : "명소",
+  "tourDestinationContent": "서울에 있는 산이다.",
+  "tourDestinationContentDetail": "조선조 태조가 1394년 풍수지리에 의해 도읍지를 개성에서 서울로 옮겨 온 뒤에 남쪽에 있는 산이므로 ‘남산’으로 지칭되었고 풍수지리상 안산으로 중요한 산이다.",
+  "tourDestinationNumber": "02-000-0000",
+  "tourDestinationTime": "9am",
+  "tourDestinationPicture": "data:image/jpeg;base64,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",
+  "tourDestinationPay" : 0
+}
+
+
+###insertReivews
+POST http://localhost:9010/api/v1/tourdestinaionreviews
+Content-Type: application/json
+
+{
+  "tdId": 1,
+  "reviewContent" : "좋아요",
+  "reviewTitle" : "1번 답변",
+  "name" : "이태웅",
+  "password" : "12345"
+}
+
+
+###insertUser
+POST http://192.168.0.249:8000/api/v1/tourdestination
+Content-Type: application/json
+
+{
+  "tourDestinationName" : "SK텔레콤 미래기술체험관 T.um(티움)",
+  "tourDestinationLocation": "서울 중구",
+  "tourDestinationType" : "엔터테인먼트",
+  "tourDestinationContent": "생활 전반이 혁신되는 새로운 세상, 세상 모든 것이 연결되는 미래",
+  "tourDestinationContentDetail": "순수한 우리말로 '싹을 틔우다'라는 의미를 보유하고 있는 ICT 뮤지엄으로 SK텔레콤의 기술력을 체험할 수 있는 공간이다. 일방적인 정보전달이나 기능 위주의 체험에 그치던 기존 기업 홍보관의 한계를 탈피해 다양한 ICT 체험이 가능한 환경을 구축하고 있으며, 첨단 기술을 통해 사람과 사람을 연결하고자 하는 기업 정신이 잘 드러나 있는 곳이다.",
+  "tourDestinationNumber": "02-111-2222",
+  "tourDestinationTime": "9am~7pm",
+  "tourDestinationPicture": "https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=783a2a83-0f81-4ee0-ba14-b09b70e20603",
+  "tourDestinationPay" : 10000
+}
